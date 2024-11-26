@@ -82,6 +82,6 @@ def visualize_pcd_sequence(folder_path):
         time.sleep(0.3)
 
     vis.destroy_window()
-
+# testcode
 # folder_path = "data/01/pcd"
 # visualize_pcd_sequence(folder_path)
