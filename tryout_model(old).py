@@ -32,6 +32,7 @@ def cluster_pcd(pcd):
     labels = np.array(pcd.cluster_dbscan(eps=eps, min_points=min_samples, print_progress=False))
     return labels
 
+
 # 클러스터 매칭
 def match_clusters(previous_clusters, current_clusters, previous_points, current_points):
     """현재 프레임과 이전 프레임 간 클러스터 매칭."""
